@@ -1,0 +1,13 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+form {
+  background: rgba(179, 178, 176, 0.6);
+  color: white;
+}
+
+html {
+  background-image: url("/assets/background.jpg");
+  background-size: 100%;
+}
