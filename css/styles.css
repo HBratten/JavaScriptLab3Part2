@@ -2,17 +2,14 @@ body {
   font-family: "Maven Pro", sans-serif;
 }
 
-form {
-  background: rgba(179, 178, 176, 0.6);
-  color: white;
-}
-
 html {
   background-image: url("/assets/background.jpg");
   background-size: 100%;
 }
 
 form {
+  background: rgba(179, 178, 176, 0.6);
+  color: white;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -45,8 +42,15 @@ button {
 
 .delete_btn {
   border-radius: 50%;
+  position: absolute;
+  margin: 0px;
+  right: -10px;
+  bottom: -10px;
 }
 
-.contacts {
-  /* background-color: rgba(255, 255, 255, 0.8); */
+.classDiv {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
 }

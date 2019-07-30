@@ -15,15 +15,16 @@ function add(event) {
 function display() {
   document.querySelector(".info_container").innerHTML = "";
   myContacts.forEach((person, index) => {
-    const div = document.createElement("div");
-    div.innerHTML = `
+    const newContact = document.createElement("div");
+    newContact.classList.add("classDiv");
+    newContact.innerHTML = `
         <p>Name: ${person.name}</p>
         <p>Email: ${person.email}</p>
         <p>Phone Number: ${person.number}</p> 
         <p>Relationship: ${person.relationship}</p>
         <button index=${index} class="delete_btn"><i class="fas fa-trash"></i></button>
         `;
-    document.querySelector(".info_container").append(div);
+    document.querySelector(".info_container").append(newContact);
   });
 }
 
