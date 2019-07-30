@@ -11,3 +11,26 @@ html {
   background-image: url("/assets/background.jpg");
   background-size: 100%;
 }
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  color: rgb(179, 178, 176);
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
