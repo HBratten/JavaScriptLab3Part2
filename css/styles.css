@@ -1,10 +1,10 @@
 body {
   font-family: "Maven Pro", sans-serif;
-}
-
-html {
-  background-image: url("/assets/background.jpg");
-  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 form {
@@ -35,7 +35,8 @@ button {
 .info_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+
   border-radius: 5px;
   margin: 10px;
 }
@@ -53,4 +54,5 @@ button {
   position: relative;
   border-radius: 5px;
   padding: 10px;
+  margin: 10px;
 }
